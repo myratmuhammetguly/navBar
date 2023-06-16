@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive navbar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--navbar-->
+    <header>
+        <div class="container">
+            <div class="nav-start">
+                <a href="#">
+                    <img class="logo" src="./images/logo.png" alt="Inc Logo" width="35" height="35" >
+                </a>
+                <nav class="menu">
+                    <ul class="menu-bar">
+                        <li><a href="#" class="nav-link">Profile</a></li>
+                        <li><a href="#" class="nav-link">Resources</a></li>
+                        <li><a href="#" class="nav-link">Web Templates</a></li>
+                        <li><a href="#" class="nav-link">Pricing</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="nav-end">
+                <div class="right-container">
+                    <form action="" class="search" role="search">
+                        <input type="search" name="search" placeholder="Search">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </form>
+                    <a href="#profile">
+                        <img src="./images/profile_1.PNG" width="30" height="30" alt="user image" />
+                    </a>
+                    <button class="btn btn-primary">Create</button>
+                </div>
+                <button id="hamburger" class="nav-toggle" aria-label="hamburger" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    <script src="app.js"></script>
+</body>
+
+</html>
